@@ -1,0 +1,98 @@
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ea1826!important;
+}
+
+/* header section */
+.carousel-inner .carousel-item .card img{
+    height: 100vh;
+}
+header{
+    margin-top: 70px;
+}
+header .carousel-inner .carousel-item .d-flex{
+    display: flex!important;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+header .carousel-inner .card-img-overlay .container .row .col-3 .d-flex{
+        flex-flow: row!important;
+        justify-content: space-evenly;
+        gap: 2px;
+}
+header .carousel-inner .card-img-overlay .container .row .col-3 .d-flex .icon i{
+    color: #ea1826;
+    font-size: 28px;
+}
+
+header .carousel-inner .card-img-overlay .container .row .col-3{
+    background-color: #54595F;
+}
+header .carousel-inner .card-img-overlay .container .row .discover{
+    background-color: #ea1826;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .carousel-inner .card-img-overlay h3{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* section feature-1 */
+.feature-1 {
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);
+}
+.feature-1 .col-lg-4 .col-5 .d-flex{
+    justify-content: revert;
+    align-items: center;
+    flex-flow: column;
+}
+.feature-1 .col-lg-4 .col-5 .d-flex  div i{
+    color: white;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.feature-1 .col-lg-4{
+    gap: 3px;
+    margin: 3px 0px;
+}
+.feature-1 .col-lg-4 .col-5 .d-flex  div h5{
+    margin-top: 15px;
+}
+
+ .feature-1 .col-lg-4 .col-5:hover{
+        background-color: #ea1826!important;
+}
+
+.feature-1 .col-lg-4 .col-7 p{
+    padding: 15px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    /* header .carousel-inner .card-img-overlay .row 
+ {
+    display: none;
+ } */
+ header .card-img-overlay .card-text{
+
+ }
+ header .card-img-overlay .card-title{
+    font-size: 30px;
+ }
+}
+
+@media only screen and (max-width: 900px) {
+    header .carousel-inner .card-img-overlay .row 
+ {
+    display: none;
+ }
+}

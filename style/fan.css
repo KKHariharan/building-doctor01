@@ -1,0 +1,27 @@
+.fan-section .col-lg-6 .forms{
+    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+.fan-section .col-lg-6 h2{
+    color: #ea1826;
+}
+.fan-section .col-lg-6 .forms form{
+    padding: 13px 27px;
+}
+.fan-section .col-lg-6 .forms .header{
+    color: #fff;
+    background-color: #ea1826;
+    text-align: center;
+}
+.fan-section .col-lg-6 .forms .header h1 {
+    padding-bottom: 20px;
+   
+}
+.fan-section .col-lg-6 .forms .header h4{
+     padding-top: 20px;
+}
+@media only screen and (max-width: 500px) {
+    .fan-section .col-lg-6 .d-flex img {
+        display: none;
+    }
+  }

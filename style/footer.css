@@ -1,0 +1,67 @@
+*{
+        font-family: 'Lora', serif;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer{
+    background-color:#102039 ;
+}
+.footer .container .col-lg-3 input{
+    margin-top: 1rem;
+    padding: 4px 22px;
+}
+.footer .container .col-lg-7 h2 {
+    color: #fff;
+    margin-top: 1rem;
+}
+.footer .container hr{
+    color: #fff;
+}
+.footer .container .col-lg-2 button{
+    margin-top: 1rem;
+}
+.footer .container-fluid .col-lg-3 img{
+    width: 50%;
+}
+.footer .container-fluid .col-lg-3{
+    color: #fff;
+}
+.footer .container-fluid .col-lg-3 .rounded{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.footer .container-fluid .col-lg-3 .rounded img{
+    width: 100%!important;
+    border-radius: 50%;
+}
+.footer .container-fluid .col-lg-3 .d-flex h6 span i{
+    color: #ea1826;
+}
+.footer .container-fluid .col-lg-3 .d-flex hr{
+    color: #fff;
+}
+.footer .container-fluid .col-lg-3 .d-flex h5:hover{
+    color: #ea1826;
+}
+.footer .container-fluid .col-lg-3 ul li :hover{
+    color: #ea1826;
+}
+.footer .container-fluid .col-lg-3 .row .col-4 img{
+    width: 100%;
+
+}
+.footer .container-fluid .col-lg-3 .row {
+    padding: 5px;
+}
+.footer hr{
+ color: #fff;
+}
+@media only screen and (max-width: 500px) {
+    .footer .container  .d-flex{
+        flex-flow: column;
+    }
+  }

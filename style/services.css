@@ -1,0 +1,66 @@
+section{
+    margin-top: 50px;
+}
+.services{
+    background-color: #102039;
+}
+.services .container .row .col-lg-6 img{
+    width: 100%;
+    padding: 30px;
+    border-radius: 48px;
+}
+
+.services .container  .bg-light .row .col-lg-6{
+    padding: 0px  50px ;
+} 
+.services .overflow  .content{
+    height: 150px;
+    background-color: #fff;
+
+}
+.services .overflow{
+    overflow-x: scroll;
+}
+.services .overflow .d-flex {
+    gap: 14px;
+}
+.services .overflow .d-flex .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    border-radius: 6px;
+    margin: 22px 0px;
+    height: 200px;
+    padding: 0px 50px;
+}
+.services .overflow .d-flex .content div i{
+    font-size: 50px;
+    color: #ea1826;
+    padding: 0px 47px;
+}
+.services .overflow .d-flex .content  h4{
+    text-align: center;
+}
+.services .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services .bg-light .col-lg-6 h3{
+    margin-top: 10px;
+}
+
+.services .bg-light .col-lg-6 .h4{
+    color: #ea1826;
+}
+
+.project .row .col-lg-2 img {
+    width: 100%;
+
+}
+.services .overflow .d-flex .content div i :hover ,.services .overflow .content:hover{
+    background-color: yellowgreen; 
+    color: #fff;
+ .services .overflow .d-flex .content div i{
+        color: #fff;
+}}
